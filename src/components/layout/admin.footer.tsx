@@ -1,14 +1,13 @@
 'use client'
-
-import { Layout } from "antd";
-
+import { Layout } from 'antd';
 
 const AdminFooter = () => {
-    const {  Footer } = Layout;
+    const { Footer } = Layout;
+
     return (
         <>
-        <Footer style={{ textAlign: 'center' }}>
-                Chiet Nguyen ©{new Date().getFullYear()} Created by Chiet Nguyen
+            <Footer style={{ textAlign: 'center' }}>
+                Hỏi Dân IT ©{new Date().getFullYear()} Created by @hoidanit
             </Footer>
         </>
     )

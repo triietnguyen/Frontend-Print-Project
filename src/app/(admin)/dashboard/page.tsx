@@ -1,23 +1,18 @@
-'use client'
-import AdminFooter from '@/components/layout/admin.footer';
-import AdminHeader from '@/components/layout/admin.header';
-import AdminSideBar from '@/components/layout/admin.sidebar';
-
-import { Layout, theme } from 'antd';
-
+import AdminCard from "@/components/admin/admin.card";
 
 const DashboardPage = () => {
 
-    const { Content } = Layout;
-
     return (
         <div>
-            Dashboard
+            <AdminCard />
         </div>
     )
 }
 
-export default DashboardPage
+export default DashboardPage;
+
+
+
 
 
 
